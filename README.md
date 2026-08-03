@@ -81,15 +81,7 @@ Les scores de validation et de test sont **cohérents** (écarts inférieurs à 
 - kagglehub
 
 
-## 🚀 Utilisation du modèle sauvegardé
 
-```python
-import joblib
-
-pipeline = joblib.load("modele_final.joblib")
-predictions = pipeline.predict(X_new)
-probabilites = pipeline.predict_proba(X_new)[:, 1]
-```
 
 ## 📝 Auteur
 [Xiao](https://github.com/XiaoqingGdc)
